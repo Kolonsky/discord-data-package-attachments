@@ -1,0 +1,19 @@
+{
+	"name": "discord-data-package-attachements",
+	"version": "1.0.0",
+	"description": "Simple script to export all attachments from discord data package.",
+	"private": true,
+	"main": "main.js",
+	"repository": "github:kolonsky/discord-data-package-attachements",
+	"license": "MIT",
+	"dependencies": {
+		"uuid": "7.0.1",
+		"rimraf": "3.0.2",
+		"extract-zip": "1.6.7",
+		"download": "7.1.0",
+		"progress": "2.0.3"
+	},
+	"scripts": {
+		"start": "node main.js"
+	}
+}
